@@ -15,7 +15,7 @@ function displayFood() {
         method: "GET"
         }).then(function(response) {
             
-            var foodDiv = $("<div class='food'>");
+            // var foodDiv = $("<div class='food'>");
 
             var gifs = response.data;
             var ratings = []; 
@@ -35,7 +35,7 @@ function displayFood() {
                 var imageFixedURL = imageFixed[j];
                 var gif = rating + '<img src=" ' + imageURL + '" data-still=" ' + imageURL + ' " data-animate=" ' + imageFixedURL + '" data-state="still" class="moveImage">';
 
-                gif = '<div class="col-md-4 float-left">' + gif + "</div>";
+                gif = '<div class="col-lg-4 float-left">' + gif + "</div>";
                
 
                 $("#food-view").append(gif); 

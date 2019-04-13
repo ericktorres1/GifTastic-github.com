@@ -1,21 +1,25 @@
-.food img {
-    float: left;
-    height: 200px;
-    width: 200px;
-    margin-top: 20px;
-    /* margin-left: -80px;
-    margin-right: 60px; */
-    flex: 1;
-    
-
+body {
+    background: url('https://foodrevolution.org/wp-content/uploads/2018/04/blog-featured-diabetes-20180406-1330.jpg');
+    background-size: cover;
 }
 
+.food img {
+    float: left;
+    height: 150px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+#search-view {
+    background: lightblue;
+    opacity: .8;
+}
 .food-view div {
     margin: 10px;
 }
 
 .food p {
-    float: left;
     margin-bottom: 20px;
     margin-right: 60px;
     text-align: center;
@@ -28,4 +32,19 @@
 
 .food {
     text-align: center;
+}
+
+#food-view .col-lg-4{
+    background: white;
+    opacity: .9;
+}
+
+#food-view .ratings {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    
+}
+.fa-utensils {
+    margin-right: 5px;
 }

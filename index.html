@@ -6,22 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
     <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/style/style.css">
     <title>GifTastic</title>
 </head>
 <body>
     <div class="container">
         <div id="buttons-view"></div>
-        <form id="food-form" class="form-group">
-            <label for="food-input">Add some delicious food!</label>
-            <input type="text" id="food-input" placeholder="tacos">
-            <br>
-
-            <input class="btn btn-primary" id="add-food" type="submit" value="Add food">
-        </form>
-
+        <div class="jumbotron jumbotron-fluid text-center" id="search-view">
+            <div class="container">
+                <form id="food-form" class="form-group">
+                    <i class="fas fa-utensils"></i><label for="food-input"><p> Add some delicious food!</p></label>
+                    <input class="form-group" type="text" id="food-input" placeholder="tacos">
+                    <br>
+                    <input class="btn btn-primary" id="add-food" type="submit" value="Add food">
+                </form>
+            </div>
+          </div>
         <div id="food-view">
+                
         </div>
         
     </div>
