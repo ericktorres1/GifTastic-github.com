@@ -8,7 +8,7 @@ function displayFood() {
     var food = $(this).attr("data-name");
 
     // var queryURL = "http://api.giphy.com/v1/gifs/search?q=pizza&api_key=kSK6li9wL7isiktdOKYY4wmU7Grnmpbi&limit=10";
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + food +  "&api_key=kSK6li9wL7isiktdOKYY4wmU7Grnmpbi&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + food +  "&api_key=kSK6li9wL7isiktdOKYY4wmU7Grnmpbi&limit=10";
 
     $.ajax({
         url: queryURL,
